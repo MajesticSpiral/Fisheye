@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html class="no-js"> 
 	<head>
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title> Order Confirmation </title>
@@ -33,10 +35,8 @@
 				</br>
 					<img class="iconimage"src="images/party-icon.svg">
 <h1 style="color: white;">Let the fun begin</h1>
-<p style="color: white;">Thanks for your order, we'll have it with you as soon as possible</p>
-<b style="color: white;">Your order number is #10293838 and a confirmation email has been sent to the address provided.</b>	
-				</br>
-			
+<p style="color: white;">Thanks for your order, we'll have it with you as soon as possible.</p>
+<p style="color: white;">Your order number is #10293838 and a confirmation email has been sent to the address provided.</p>	
 <b style="color: white;">Order even faster in future</b>
 			</br>
 		</br>
@@ -51,38 +51,43 @@
 	
 			</div>
 		</div>
-		
-		
-		<div id="fh5co-work-section">
-			<h1>Here's What You Ordered</h1> 
-			<div class="ordercontainer">
-				<div class="image">
-					<img src="images/prod-TN-1.jpg"> 
-				</div>
-				<div class="text">
-					<p>17ft x 12ft Jumpking Deluxe Rectangular Trampoline with Enclosure</p> <p style="font-weight: bold;">£949.00</p> <p style="float: right;">qty: 1</p>
-					
-				</div>
+
+		<h1><strong>Here's What You've Ordered</strong></h1>
+
+		<div class="container">
+			<div class="row">
+			  <div class="col-6 col-sm-4">					
+				  <img src="images/prod-TN-1.jpg">
 			  </div>
+			  <div class="col-6 col-sm-4"><p><b>17ft x 12ft Jumpking Deluxe Rectangular Trampoline with Enclosure</b></p>
+				 <p><s>£1069.00</s><b>£949.00</b></p><b style="float: right;">QTY1</b></div>
+		  
+			  <!-- Force next columns to break to new line at md breakpoint and up -->
+			  <div class="w-100 d-none d-md-block"></div>
+		  
+			  <div class="col-6 col-sm-4"><b>Subtotal</b> <b style="float: right;">£1318.00</b></div>
+			  <div class="col-6 col-sm-4"><b>Delivery</b><b style="float: right;">FREE</b></div>
+			  <div class="col-6 col-sm-4"><b>Next Working Day(if ordered before 3pm)</b></div>
+			</div>
+		  </div>
 
-			  <div class="ordercontainer">
-				<div class="image">
-					<img src="images/prod-TN-2.jpg"> 
-				</div>
-				<div class="text">
-					<p>14ft Salta Black Round Comfort Edition Trampoline with Enclosure</p> <p style="font-weight: bold;">£369.00</p> <p style="float: right;">qty: 1</p>
-					
-				</div>
-				
+		  <div class="container">
+			<div class="row">
+			  <div class="col-6 col-sm-4">					
+				  <img src="images/prod-TN-2.jpg">
 			  </div>
-			  <h2>Subtotal</h2> <p>£1318.00</p>
-			  <h2>Delivery</h2> <p>FREE</p>
-			  <h2>Next Working Day</h2>
-
-			  <h2>Total</h2> <P>£1318.00</P>
-
-		</div>
-
+			  <div class="col-6 col-sm-4"><p><b>14ft Salta Black Round Comfort Edition Trampoline with Enclosure</b></p>
+				<p><b>£369.00</b></p><b style="float: right;">QTY1</b></div>
+		  
+			  <!-- Force next columns to break to new line at md breakpoint and up -->
+			  <div class="w-100 d-none d-md-block"></div>
+		  
+			  <div class="col-6 col-sm-4"><b>Total</b> <b style="float: right;">£1318.00 </b> </div>
+			  <div class="col-6 col-sm-4 text-center"><b><p><b>You paid using a Mastercard </b> <i class="fab fa-cc-mastercard"></i></p></b></div>
+			</div>
+		  </div>
+		  
+		  
 		<footer>
 			<div id="footer">
 				<div class="container">
@@ -97,19 +102,20 @@
 							  <div class="modal-content">
 								<span class="close">&times;</span>
 								
-									<h2 class="modal-header">Newsletter SignUp</h2>
-									<label style="float: left;" for="message-text" class="col-form-label">Your Name:</label>
-            						<textarea class="form-control" id="message-text"></textarea>
-							  </br>
-									<label style="float: left;" for="message-text" class="col-form-label">Your Telephone Number:</label>
-            						<textarea class="form-control" id="message-text"></textarea>
+									<div class="modal-header"><h1 style="color: white; font-weight: bold;">Newsletter SignUp</h1></div>
+									<div style="padding: 20px;"><label style="float: left;" for="message-text" class="col-form-label">Your Name:</label>
+										<textarea class="form-control" id="message-text"></textarea>
+								  </br>
+										<label style="float: left;" for="message-text" class="col-form-label">Your Telephone Number:</label>
+										<textarea class="form-control" id="message-text"></textarea>
+									</br>
+									<label style="float: left;" for="message-text" class="col-form-label">Your Email Address:</label>
+										<textarea class="form-control" id="message-text"></textarea></div>
+										<button style="float: left; margin-left:20px; margin-bottom: 20px;"type="button" class="btn btn-danger">Sign Up</button>
+
+										<div class="container">
 								</br>
-								<label style="float: left;" for="message-text" class="col-form-label">Your Email Address:</label>
-            						<textarea class="form-control" id="message-text"></textarea>
-								<div class="container">
-								</br>
-								
-										<button style="float: left;"type="button" class="btn btn-danger">Sign Up</button>
+
 								
 									  
 								</div>
